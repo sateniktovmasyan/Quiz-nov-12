@@ -102,4 +102,9 @@ def main():
 
     llist.print_list()
     print ("end of the process")
+    
+    raw_input("please add date in this form dd.mm.yy ")
+    llist.append(raw_input())
+    llist.print_list()
+    
 main()
